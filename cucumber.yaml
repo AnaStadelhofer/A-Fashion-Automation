@@ -1,0 +1,8 @@
+default: --profile pretty -p chrome -p local -p html
+
+ci: -p headless -p html -p bdd -p local
+html: --format html --out=log/feature.html
+pretty: --format pretty
+progress: --format progress
+chrome: BROWSER=chrome
+local: ENVIRONMENT_TYPE=local
