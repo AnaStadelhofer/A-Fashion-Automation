@@ -14,6 +14,7 @@ World(Capybara::RSpecMatchers)
 BROWSER = ENV['BROWSER']
 ENVIRONMENT_TYPE = ENV['ENVIRONMENT_TYPE']
 CONFIG = YAML.load_file(File.dirname(__FILE__) + "/config/#{ENVIRONMENT_TYPE}.yaml")
+VARIABLE = YAML.load_file(File.dirname(__FILE__) + "/config/variables.yaml")
 
 case BROWSER
 when 'chrome'
