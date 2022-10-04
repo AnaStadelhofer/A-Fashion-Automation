@@ -23,5 +23,5 @@ Quando('o usuário preencher todos campos do cadastro') do
 end
 
 Então('irá exibir a mensagem {string}') do | message |
-  expect(page).to have_content('Welcome to your account. Here you can manage all of your personal information and orders.')
+  expect(page).to have_content(message)
 end
