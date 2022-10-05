@@ -3,7 +3,7 @@ Dado('que todos dados de usuário foram gerados') do
   @lastname = Faker::Name.last_name
   @email = Faker::Internet.email
 
-  @address = 'email@teste.automation.com'
+  @address = Faker::Address.full_address
   @city = Faker::Address.city
   @other = Faker::Lorem.characters(number: 25)
   @phone = Faker::PhoneNumber.cell_phone_in_e164
