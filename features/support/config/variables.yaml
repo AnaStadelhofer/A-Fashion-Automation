@@ -1,1 +1,2 @@
-pass: Senha@123
+pass: 'Senha@123'
+user: 'email@teste.automation.com'
