@@ -1,5 +1,5 @@
 Dado('que o usuário esteja na tela de login') do
-  find('.header_user_info').click
+  @login.page_login
 end
 
 Quando('preencher o e-mail com senha') do

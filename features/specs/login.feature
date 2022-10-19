@@ -1,6 +1,6 @@
 #language: pt
 
-@login
+@login_scenarios
 Funcionalidade: Login do usuário
 
 Cenário: Efetuar login
