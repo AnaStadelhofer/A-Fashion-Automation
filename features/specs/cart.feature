@@ -1,6 +1,6 @@
 #language: pt
 
-@login @logout
+# @login @logout
 Funcionalidade: Gerencimaneto do carrinho
 
 
@@ -12,7 +12,7 @@ Cenário: Adicionar vários itens no carrinho
 @cart
 Cenário: Remover todos itens do carrinho
     Dado que estou na página inical
-    Quando usuário adicionar os 5 primeiros produtos
+    Quando usuário adicionar os 2 primeiros produtos
     E remover todos itens do carrinho
     Então ao acessar o carrinho deverá estar vazio
 
